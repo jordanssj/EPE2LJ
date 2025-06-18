@@ -69,6 +69,10 @@
     <h3>Ir a la Página Web 4</h3>
     <asp:Button ID="btnPagina4" runat="server" Text="Calculadora Convencional" CssClass="btn btn-verde" OnClick="btnPagina4_Click" />
 </div>
+        <div class="section">
+    <h3>Ir a la Página Web 5</h3>
+    <asp:Button ID="btnPagina5" runat="server" Text="Ámbito de Variables" CssClass="btn btn-verde" OnClick="btnPagina5_Click" />
+</div>
     </form>
 </body>
 </html>
