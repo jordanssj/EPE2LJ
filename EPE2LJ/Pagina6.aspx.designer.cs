@@ -11,7 +11,7 @@ namespace EPE2LJ
 {
 
 
-    public partial class Index
+    public partial class Pagina6
     {
 
         /// <summary>
@@ -24,57 +24,39 @@ namespace EPE2LJ
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control btnPagina1.
+        /// Control txtNumeros.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina1;
+        protected global::System.Web.UI.WebControls.TextBox txtNumeros;
 
         /// <summary>
-        /// Control btnPagina2.
+        /// Control btnCalcular.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina2;
+        protected global::System.Web.UI.WebControls.Button btnCalcular;
 
         /// <summary>
-        /// Control btnPagina3.
+        /// Control btnVolverIndex.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina3;
+        protected global::System.Web.UI.WebControls.Button btnVolverIndex;
 
         /// <summary>
-        /// Control btnPagina4.
+        /// Control lblResultado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina4;
-
-        /// <summary>
-        /// Control btnPagina5.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina5;
-
-        /// <summary>
-        /// Control btnPagina6.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPagina6;
+        protected global::System.Web.UI.WebControls.Label lblResultado;
     }
 }

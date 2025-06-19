@@ -48,11 +48,19 @@
             font-size: 20px;
             font-weight: bold;
         }
+
+        .logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    height: 200px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="container">
+             <img src="images/ipchile.jpg" alt="Logo IPCHILE" class="logo" />
             <h2>Calculadora Convencional</h2>
 
             <asp:TextBox ID="txtNumero1" runat="server" Placeholder="Primer número" />

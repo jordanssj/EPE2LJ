@@ -48,7 +48,6 @@
     <form id="form1" runat="server">
         <div class="nombre">Jordan Acevedo y Leonardo Arambula</div>
 
-        <!-- Imagen IPCHILE -->
         <img src="Images/ipchile.jpg" alt="Logo IPCHILE" class="logo" />
 
         <div class="section">
@@ -66,13 +65,17 @@
             <asp:Button ID="btnPagina3" runat="server" Text="Formulario de Contacto" CssClass="btn btn-verde" OnClick="btnPagina3_Click" />
         </div>
         <div class="section">
-    <h3>Ir a la Página Web 4</h3>
-    <asp:Button ID="btnPagina4" runat="server" Text="Calculadora Convencional" CssClass="btn btn-verde" OnClick="btnPagina4_Click" />
-</div>
+            <h3>Ir a la Página Web 4</h3>
+            <asp:Button ID="btnPagina4" runat="server" Text="Calculadora Convencional" CssClass="btn btn-verde" OnClick="btnPagina4_Click" />
+        </div>
         <div class="section">
-    <h3>Ir a la Página Web 5</h3>
-    <asp:Button ID="btnPagina5" runat="server" Text="Ámbito de Variables" CssClass="btn btn-verde" OnClick="btnPagina5_Click" />
-</div>
+            <h3>Ir a la Página Web 5</h3>
+            <asp:Button ID="btnPagina5" runat="server" Text="Ámbito de Variables" CssClass="btn btn-verde" OnClick="btnPagina5_Click" />
+        </div>
+        <div class="section">
+            <h3>Ir a la Página Web 6</h3>
+            <asp:Button ID="btnPagina6" runat="server" Text="Calculadora de Suma Vectorial" CssClass="btn btn-verde" OnClick="btnPagina6_Click" />
+        </div>
     </form>
 </body>
 </html>

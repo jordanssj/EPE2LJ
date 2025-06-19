@@ -35,9 +35,18 @@
             margin-top: 20px;
             font-size: 18px;
         }
+
+        .logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    height: 200px;
+        }
+
     </style>
 </head>
 <body>
+    <img src="images/ipchile.jpg" alt="Logo IPCHILE" class="logo" />
     <form id="form1" runat="server">
         <h2>Ejemplo de Ámbito de Variables</h2>
         <asp:Button ID="btnMostrar" runat="server" Text="Mostrar Variables" CssClass="btn btn-verde" OnClick="btnMostrar_Click" />

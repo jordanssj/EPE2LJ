@@ -32,5 +32,9 @@ namespace EPE2LJ
         {
             Response.Redirect("Pagina5.aspx");
         }
+        protected void btnPagina6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Pagina6.aspx");
+        }
     }
 }
